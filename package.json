@@ -1,0 +1,29 @@
+{
+  "name": "@uppy-example/react",
+  "version": "0.0.0",
+  "type": "module",
+  "dependencies": {
+    "@uppy/core": "*",
+    "@uppy/dashboard": "*",
+    "@uppy/drag-drop": "*",
+    "@uppy/file-input": "*",
+    "@uppy/google-drive": "*",
+    "@uppy/progress-bar": "*",
+    "@uppy/react": "*",
+    "@uppy/remote-sources": "*",
+    "@uppy/tus": "*",
+    "@uppy/webcam": "*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.1.3"
+  }
+}
